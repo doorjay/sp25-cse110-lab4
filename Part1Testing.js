@@ -1,15 +1,18 @@
-function sumValues(num1, num2, add)
+function discountedPrices(prices, discount)
 {
-    if (add) 
+    const discounted = [];
+    const length = prices.length;
+
+    for (var i = 0; i < length; i++)
     {
-        const result = 0;
-        result = num1 + num2;
-
-        console.log('values added: ', result);
+        const discountedPrice = prices[i] * (1 - discount);
+        discounted.push(discountedPrice);
     }
-    else return;
 
-    console.log('final result: ', result);
+     console.log(i);
+     console.log(length);
+
+    return discounted;
 }
 
-sumValues(10, 10, true); 
+console.log(discountedPrices([100, 200, 300], 0.5));
