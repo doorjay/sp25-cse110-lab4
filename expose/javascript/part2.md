@@ -11,3 +11,26 @@
 9. The variable i is still outside the scope of of line 11. So, an error is thrown. 
 10. length is declared in the scope of its use in line 12, so 3 is printed.
 11. Surprisingly, it returns the appropriate array. I would have thought that none of this function would work since we continuously try to modify a const variable, but it worked when I ran it to double check my answers. 
+12. 
+    1.  student.name
+    2.  student['Grad Year']
+    3.  student.greeting()
+    4.  student['Favorite Teacher'].name
+    5.  student.courseLoad[0]
+13.  Arithmetic
+     1. '3' + 2 = '32'
+     2. '3' - 2 = 1
+     3. 3 + null = 3
+     4. '3' + null = '3null'
+     5. true + 3 = 4
+     6. false + null = 0
+     7. '3' + undefined = '3undefined'
+     8. '3' - undefined = NaN 
+14. Comparison
+    1.  '2' > 1 = true
+    2.  '2' < '12' = false
+    3.  2 == '2' = true
+    4.  true == 2 = false
+    5.  true === Boolean(2) = true
+15. == and === are both comparison operators that check if things are equal to eachother. == utilizes the weak typing to make those comparisons where === requires both sides to be of the same type. 
+16. 
